@@ -97,6 +97,29 @@ Handles payments securely for bookings. Ensures proper tracking of payment statu
 Allows users to leave ratings and feedback on properties they have stayed in. Helps maintain transparency and trust within the platform.
 
 
+## API Security
+
+### Key Security Measures
+
+1. **Authentication**
+   - Users must log in with secure credentials (username/password or OAuth tokens).  
+   - Ensures only registered users can access the system, protecting personal data.
+
+2. **Authorization**
+   - Restricts access based on user roles (e.g., admin, property owner, guest).  
+   - Prevents unauthorized users from modifying or viewing sensitive data.
+
+3. **Rate Limiting**
+   - Limits the number of API requests a user can make in a given time.  
+   - Protects the system from abuse or denial-of-service attacks.
+
+4. **Data Encryption**
+   - Sensitive data such as passwords and payment info is encrypted in storage and transit.  
+   - Ensures confidentiality and prevents data breaches.
+
+5. **Input Validation**
+   - All user input is validated and sanitized before processing.  
+   - Protects against injection attacks and maintains system integrity.
 
 
 
