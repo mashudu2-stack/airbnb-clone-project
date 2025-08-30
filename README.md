@@ -53,4 +53,29 @@ This repository is part of the StayBackend project for learning modern backend d
 - **Docker (optional):** Containerization tool for consistent deployment environments.
 - **GraphQL (optional):** Query language for APIs (used for fetching specific data efficiently).
 
+## 🗄 Database Design
+
+### Key Entities
+
+1. **Users**
+   - **Fields:** id, name, email, password, phone_number
+   - **Relationships:** A user can have multiple properties and bookings; a user can write multiple reviews.
+
+2. **Properties**
+   - **Fields:** id, owner_id, title, description, location, price_per_night
+   - **Relationships:** Belongs to a user (owner); can have multiple bookings and reviews.
+
+3. **Bookings**
+   - **Fields:** id, user_id, property_id, start_date, end_date, total_price
+   - **Relationships:** Belongs to a user; belongs to a property; may have a payment associated.
+
+4. **Reviews**
+   - **Fields:** id, user_id, property_id, rating, comment
+   - **Relationships:** Written by a user; belongs to a property.
+
+5. **Payments**
+   - **Fields:** id, booking_id, amount, payment_date, status
+   - **Relationships:** Linked to a booking; ensures payment completion for property bookings.
+
+
 
