@@ -53,7 +53,7 @@ This repository is part of the StayBackend project for learning modern backend d
 - **Docker (optional):** Containerization tool for consistent deployment environments.
 - **GraphQL (optional):** Query language for APIs (used for fetching specific data efficiently).
 
-## 🗄 Database Design
+##  Database Design
 
 ### Key Entities
 
@@ -76,6 +76,27 @@ This repository is part of the StayBackend project for learning modern backend d
 5. **Payments**
    - **Fields:** id, booking_id, amount, payment_date, status
    - **Relationships:** Linked to a booking; ensures payment completion for property bookings.
+
+
+
+## Feature Breakdown
+
+### 1. User Management
+Allows users to create accounts, log in, and manage their profiles. Users can also view their booking history and write reviews for properties.
+
+### 2. Property Management
+Enables property owners to list new properties, update details, and manage availability. Helps ensure accurate and up-to-date property information for potential renters.
+
+### 3. Booking System
+Allows users to search for available properties, make bookings, and track upcoming reservations. Ensures smooth coordination between property availability and user requests.
+
+### 4. Payment Processing
+Handles payments securely for bookings. Ensures proper tracking of payment status and allows refunds if necessary.
+
+### 5. Review System
+Allows users to leave ratings and feedback on properties they have stayed in. Helps maintain transparency and trust within the platform.
+
+
 
 
 
