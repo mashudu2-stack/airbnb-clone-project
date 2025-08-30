@@ -42,3 +42,15 @@ This repository is part of the StayBackend project for learning modern backend d
 ### 6. DevOps Engineer
 - **Responsibility:** Manages deployment, server infrastructure, and automates workflows to ensure continuous integration and delivery.
 
+## Technology Stack
+
+- **Python:** Programming language used for backend logic and data handling.
+- **Django:** Web framework for building the backend and RESTful APIs.
+- **Flask:** Lightweight web framework (optional, depending on project phase).
+- **HTML, CSS, JavaScript:** Frontend technologies for creating user interfaces.
+- **PostgreSQL / MySQL:** Relational database for storing and managing application data.
+- **Git & GitHub:** Version control system for tracking changes and collaborating.
+- **Docker (optional):** Containerization tool for consistent deployment environments.
+- **GraphQL (optional):** Query language for APIs (used for fetching specific data efficiently).
+
+
