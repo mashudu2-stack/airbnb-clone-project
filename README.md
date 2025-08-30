@@ -122,4 +122,18 @@ Allows users to leave ratings and feedback on properties they have stayed in. He
    - Protects against injection attacks and maintains system integrity.
 
 
+##  CI/CD Pipeline
+
+### Overview
+CI/CD (Continuous Integration / Continuous Deployment) pipelines automate the process of testing, building, and deploying applications. They ensure that changes to the codebase are quickly and reliably integrated into the project and deployed to production.
+
+### Importance
+- **Consistency:** Automates testing and deployment, reducing human error.  
+- **Speed:** Accelerates development by allowing faster feedback on code changes.  
+- **Quality:** Ensures code is tested before deployment, improving reliability.  
+
+### Tools
+- **GitHub Actions:** Automates workflows for testing, building, and deploying code.  
+- **Docker:** Packages applications into containers for consistent deployment.  
+- **Jenkins / CircleCI (optional):** Can be used as alternative CI/CD tools for automation.
 
